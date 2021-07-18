@@ -5,7 +5,10 @@ https://catching-miles.000webhostapp.com/
 
 I am also providing the PHP code in this repository. It will work perfectly on your device if you will use XAMPP software and your database and table name are 'project' and 'info' respectively. In other cases, you have to make changes to the PHP code.
 
-Taking about the future scope of this project is to make the site responsive and to add the functionality by which a user can-
+The future scope of this project is to make the site responsive and to add the functionality by which a user can-
 1) upload an image on the site.
 2) can download an image from the site.
 3) can book a freelancer photographer from the website. 
+
+Make pull requests. Updation on this is site high will hlghly appreciable.
+Thank You
