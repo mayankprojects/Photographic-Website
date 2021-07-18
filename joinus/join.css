@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body {
+
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    font-family: 'Balsamiq Sans', sans-serif;
+    zoom: 80%;
+  }
+
+  body {
+    display: flex;
+  }
+
+  .card {
+    width: 70%;
+    margin-left: 25px;
+    margin-top: 80px;
+  }
+
+  .card h2 {
+    color: #003333;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-left: 220px;
+  }
+
+  span {
+    color: #b30000;
+    font-style: italic;
+  }
+
+  .card .row {
+    position: relative;
+    width: 1300px;
+    display: grid;
+    grid: auto / auto auto;
+    grid-gap: 20px;
+  }
+
+  .card .row .col {
+    position: relative;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+  }
+
+  .card .row .form-group input,
+  .card .row .form-group textarea {
+    position: absolute;
+    width: 450px;
+    height: 35px;
+    background: #fff0b3;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 5px solid #e6b800;
+    box-shadow: 10px 10px 0 #cc8800;
+    color: #003333;
+
+  }
+
+  .card .row .form-group label {
+    line-height: 40px;
+    color: #003333;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+  }
+
+  .row .col:nth-child(6) {
+    margin-top: 64px;
+  }
+
+  .card .row .form-group input:focus,
+  .card .row .form-group textarea:focus {
+    border: 5px solid #003333;
+    transition: all 0.5s;
+  }
+
+  input[type=submit] {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-left: -630px;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    background: #b30000;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all 0.4s;
+  }
+
+  input[type=submit]:hover {
+    border: 5px solid rgba(255, 255, 255, 1);
+    background-color: #269900;
+    color: #ffffff;
+    transition: all 0.4s;
+  }
+
+  @media screen and (max-width: 900px) {
+    .card .row {
+      grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
+    }
+
+    .card {
+      padding: 20px;
+    }
+
+    .card h2 {
+      font-size: 34px;
+    }
+
+    .card .row input[type="submit"] {
+      width: 100%;
+    }
+  }
