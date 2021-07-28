@@ -1,5 +1,8 @@
 I have made a photographic website. A photographer can take inspiration from the photos that get uploaded on this site. Also, there is a join now button through which a user can join our photographic community. Once the user clicks on the join us button, they get redirected to a new webpage that contains a form. If the user fills his form his information gets saved into a database.
 
+You can have a look at my website through my LinkedIn post
+https://www.linkedin.com/posts/the-mayank-kumar_html-css-php-activity-6822880037423992832-cRhP
+
 I have also hosted this site on the internet using free hosting. The domain name is 
 https://catching-miles.000webhostapp.com/
 
